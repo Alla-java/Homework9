@@ -28,12 +28,9 @@ public class Main {
         System.out.println("Максимальная сумма трат за день составила " + max + " рублей");
 
         /* Задание 3. */
-        for (int y: payments) {
-            total +=y;
-        }
 
         double average = total / payments.length;
-        System.out.println("Средняя сумма трат за день составила " + average + " рублей");
+        System.out.println("Средняя сумма трат за месяц составила " + average + " рублей");
 
         /* Задание 4. */
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
